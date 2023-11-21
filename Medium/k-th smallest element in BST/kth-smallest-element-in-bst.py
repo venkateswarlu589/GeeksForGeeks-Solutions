@@ -97,10 +97,8 @@ class Solution:
                     queue.append(node.right)
         stack.sort()
         if len(stack) < K:
-            return - 1
-     
+            return -1
         return stack[K-1]
-                    
 
 #{ 
  # Driver Code Starts.
