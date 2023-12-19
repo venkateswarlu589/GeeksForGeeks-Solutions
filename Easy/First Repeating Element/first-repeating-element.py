@@ -1,5 +1,7 @@
 #User function Template for python3
 
+#User function Template for python3
+
 class Solution:
     #Function to return the position of the first repeating element.
     def firstRepeated(self,arr, n):
@@ -13,6 +15,7 @@ class Solution:
                 position = d[elem]
             d[elem] = i
         return position + 1 if position < n else -1
+
 
 
 #{ 
